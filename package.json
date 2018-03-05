@@ -6,8 +6,9 @@
   "scripts": {
     "clear": "rm -rf dist/*",
     "dev-start": "webpack-dev-server",
+    "start": "node bin/heroku",
     "build": "npm run clear && NODE_ENV=production webpack --config webpack.production.config.js",
-    "start": "node bin/heroku"
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "babel-core": "^6.24.1",
