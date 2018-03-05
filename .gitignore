@@ -1,0 +1,16 @@
+npm-debug.log
+*.iml
+.DS_Store
+.idea
+public/
+dist/*
+node_modules/
+npm-debug.log
+**/.DS_Store
+.powenv
+.env
+TODO*
+DOCS
+!.keep
+!.gitkeep
+tags
