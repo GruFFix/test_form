@@ -6,6 +6,7 @@
   "scripts": {
     "clear": "rm -rf dist/*",
     "dev-start": "webpack-dev-server"
+    "build": "npm run clear && NODE_ENV=production webpack --config webpack.production.config.js",
   },
   "dependencies": {
     "babel-core": "^6.24.1",
